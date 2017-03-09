@@ -1,0 +1,11 @@
+.sui-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sui-color-light-5);
+    border-bottom: solid 2px var(--sui-color);
+    color: var(--sui-color);
+    height: 200px;
+    width: 200px;
+}
