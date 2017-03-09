@@ -1,1 +1,81 @@
+.sui-left-top {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+}
 
+.sui-left-middle {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    bottom: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.sui-left-bottom {
+    position: fixed;
+    bottom: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+}
+
+.sui-right-top {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+}
+
+.sui-right-middle {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    bottom: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sui-right-bottom {
+    position: fixed;
+    bottom: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+}
+
+.sui-middle-top {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sui-middle-middle {
+    position: fixed;
+    top: var(--sui-screen-padding);
+    bottom: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sui-middle-bottom {
+    position: fixed;
+    bottom: var(--sui-screen-padding);
+    right: var(--sui-screen-padding);
+    left: var(--sui-screen-padding);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}

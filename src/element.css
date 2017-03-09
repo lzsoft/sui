@@ -18,9 +18,7 @@ html {
     -o-user-select: none;
     user-select: none;
     cursor: default;
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Roboto";
+    font-size: 18px;
     color: #333;
     overflow: hidden;
 }
