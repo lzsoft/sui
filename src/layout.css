@@ -2,6 +2,11 @@
     position: fixed;
     top: var(--sui-screen-padding);
     left: var(--sui-screen-padding);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    z-index: 2;
 }
 
 .sui-left-middle {
@@ -14,18 +19,30 @@
     justify-content: center;
     align-items: flex-end;
     align-content: flex-end;
+    z-index: 2;
 }
 
 .sui-left-bottom {
     position: fixed;
     bottom: var(--sui-screen-padding);
     left: var(--sui-screen-padding);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
 }
 
 .sui-right-top {
     position: fixed;
     top: var(--sui-screen-padding);
     right: var(--sui-screen-padding);
+    z-index: 2;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .sui-right-middle {
@@ -38,12 +55,20 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    z-index: 2;
+    text-align: right;
 }
 
 .sui-right-bottom {
     position: fixed;
     bottom: var(--sui-screen-padding);
     right: var(--sui-screen-padding);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
+    text-align: right;
 }
 
 .sui-middle-top {
@@ -55,6 +80,7 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    z-index: 1;
 }
 
 .sui-middle-middle {
@@ -67,6 +93,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    z-index: 1;
 }
 
 .sui-middle-bottom {
@@ -78,4 +105,5 @@
     justify-content: center;
     align-items: flex-end;
     align-content: flex-end;
+    z-index: 1;
 }
