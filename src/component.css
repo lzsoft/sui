@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--sui-color-light-5);
-    border-bottom: solid 2px var(--sui-color);
-    color: var(--sui-color);
+    background-color: var(--materialize-color-light-5);
+    border-bottom: solid 2px var(--materialize-color);
+    color: var(--materialize-color);
     height: 200px;
     width: 200px;
 }

@@ -19,7 +19,7 @@ html {
     user-select: none;
     cursor: default;
     font-size: 18px;
-    color: var(--sui-color);
+    color: var(--materialize-color);
     overflow: hidden;
 }
 
@@ -54,13 +54,13 @@ textarea {
     font-weight: inherit;
     cursor: pointer;
     line-height: 150%;
-    background-color: var(--sui-color-light-5);
+    background-color: var(--materialize-color-light-5);
     font-size: 1rem;
     text-align: inherit;
     padding: 10px;
     padding-bottom: 8px;
-    border-bottom: solid 2px var(--sui-color);
-    color: var(--sui-color);
+    border-bottom: solid 2px var(--materialize-color);
+    color: var(--materialize-color);
 }
 
 select {
@@ -87,7 +87,6 @@ input[type='search']::-webkit-search-results-decoration {
 input[type='checkbox'] {
     height: 30px;
     width: 30px;
-    border: solid 1px var(--color-black);
 }
 
 template {
