@@ -1,7 +1,7 @@
 .sui-left-top {
     position: fixed;
-    top: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+    top: var(--sui-spacing);
+    left: var(--sui-spacing);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -9,11 +9,11 @@
     z-index: 2;
 }
 
-.sui-left-middle {
+.sui-left-center {
     position: fixed;
-    top: var(--sui-screen-padding);
-    bottom: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    left: var(--sui-spacing);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,8 +24,8 @@
 
 .sui-left-bottom {
     position: fixed;
-    bottom: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+    bottom: var(--sui-spacing);
+    left: var(--sui-spacing);
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -35,8 +35,8 @@
 
 .sui-right-top {
     position: fixed;
-    top: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
+    top: var(--sui-spacing);
+    right: var(--sui-spacing);
     z-index: 2;
     text-align: right;
     display: flex;
@@ -45,11 +45,11 @@
     align-content: flex-start;
 }
 
-.sui-right-middle {
+.sui-right-center {
     position: fixed;
-    top: var(--sui-screen-padding);
-    bottom: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,8 +61,8 @@
 
 .sui-right-bottom {
     position: fixed;
-    bottom: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -71,11 +71,11 @@
     text-align: right;
 }
 
-.sui-middle-top {
+.sui-center-top {
     position: fixed;
-    top: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+    top: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -83,27 +83,99 @@
     z-index: 1;
 }
 
-.sui-middle-middle {
+.sui-center-bottom {
     position: fixed;
-    top: var(--sui-screen-padding);
-    bottom: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 1;
+}
+
+.sui-center-center {
+    position: fixed;
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
     z-index: 1;
 }
 
-.sui-middle-bottom {
-    position: fixed;
-    bottom: var(--sui-screen-padding);
-    right: var(--sui-screen-padding);
-    left: var(--sui-screen-padding);
+.sui-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+    margin-bottom: var(--sui-spacing);
+}
+
+.sui-row:last-child {
+    margin-bottom: 0;
+}
+
+.sui-col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+    margin-right: var(--sui-spacing);
+    overflow: visible;
+}
+
+.sui-col:last-child {
+    margin-right: 0;
+}
+
+.sui-u {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
-    z-index: 1;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border-radius: var(--sui-spacing);
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.sui-row > .sui-u {
+    margin-right: var(--sui-spacing);
+}
+
+.sui-col > .sui-u {
+    margin-bottom: var(--sui-spacing);
+}
+
+.sui-u:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.sui-belt-center {
+    position: fixed;
+    top: 20vh;
+    bottom: 20vh;
+    right: 0;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-left: var(--sui-spacing);
+    border-right: solid var(--sui-spacing) transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
 }
