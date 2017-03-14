@@ -1,4 +1,4 @@
-.sui-left-top {
+.sui-top-left {
     position: fixed;
     top: var(--sui-spacing);
     left: var(--sui-spacing);
@@ -9,7 +9,7 @@
     z-index: 2;
 }
 
-.sui-left-center {
+.sui-center-left {
     position: fixed;
     top: var(--sui-spacing);
     bottom: var(--sui-spacing);
@@ -22,7 +22,7 @@
     z-index: 2;
 }
 
-.sui-left-bottom {
+.sui-bottom-left {
     position: fixed;
     bottom: var(--sui-spacing);
     left: var(--sui-spacing);
@@ -33,7 +33,7 @@
     z-index: 2;
 }
 
-.sui-right-top {
+.sui-top-right {
     position: fixed;
     top: var(--sui-spacing);
     right: var(--sui-spacing);
@@ -45,7 +45,7 @@
     align-content: flex-start;
 }
 
-.sui-right-center {
+.sui-center-right {
     position: fixed;
     top: var(--sui-spacing);
     bottom: var(--sui-spacing);
@@ -59,7 +59,7 @@
     text-align: right;
 }
 
-.sui-right-bottom {
+.sui-bottom-right {
     position: fixed;
     bottom: var(--sui-spacing);
     right: var(--sui-spacing);
@@ -71,7 +71,7 @@
     text-align: right;
 }
 
-.sui-center-top {
+.sui-top-center {
     position: fixed;
     top: var(--sui-spacing);
     right: var(--sui-spacing);
@@ -83,7 +83,7 @@
     z-index: 1;
 }
 
-.sui-center-bottom {
+.sui-bottom-center {
     position: fixed;
     bottom: var(--sui-spacing);
     right: var(--sui-spacing);
@@ -163,7 +163,7 @@
     margin-bottom: 0;
 }
 
-.sui-belt-center {
+.sui-center-belt {
     position: fixed;
     top: 20vh;
     bottom: 20vh;
