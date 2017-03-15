@@ -109,6 +109,23 @@
     z-index: 1;
 }
 
+.sui-center-belt {
+    position: fixed;
+    top: 20vh;
+    bottom: 20vh;
+    right: 0;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-left: var(--sui-spacing);
+    border-right: solid var(--sui-spacing) transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 .sui-row {
     display: flex;
     flex-wrap: nowrap;
@@ -141,11 +158,11 @@
 
 .sui-u {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
     position: relative;
-    border-radius: var(--sui-spacing);
     flex-grow: 1;
     overflow: hidden;
 }
@@ -163,19 +180,38 @@
     margin-bottom: 0;
 }
 
-.sui-center-belt {
-    position: fixed;
-    top: 20vh;
-    bottom: 20vh;
-    right: 0;
-    left: 0;
-    overflow-x: scroll;
-    overflow-y: visible;
-    padding-left: var(--sui-spacing);
-    border-right: solid var(--sui-spacing) transparent;
+.sui-list {
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    padding: var(--sui-spacing);
+}
+
+.sui-list > * {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: var(--sui-spacing);
+    cursor: pointer;
+    border-bottom: solid 1px var(--materialize-color-lighten-4);
+    transition: padding 0.2s;
+}
+
+.sui-list > * > * {
+    flex-grow: 1;
+}
+
+.sui-list > * > i.material-icons {
+    flex-grow: 0;
+}
+
+.sui-list > *:hover {
+    padding-top: calc(var(--sui-spacing) * 3);
+    padding-bottom: calc(var(--sui-spacing) * 3);
 }
