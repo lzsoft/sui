@@ -53,10 +53,9 @@ textarea {
     font-family: inherit;
     font-weight: inherit;
     cursor: pointer;
-    line-height: 150%;
+    line-height: 100%;
     font-size: 1rem;
     text-align: inherit;
-    padding: var(--sui-spacing);
     color: var(--materialize-color);
     background-color: transparent;
 }
@@ -72,6 +71,7 @@ select > option {
 }
 
 textarea {
+    min-height: 300px;
     resize: none;
 }
 
@@ -104,6 +104,15 @@ form {
     padding: var(--sui-spacing);
 }
 
+form.sui-u {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 form > * {
     cursor: pointer;
     position: relative;
@@ -112,9 +121,9 @@ form > * {
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    background-color: var(--materialize-color-lighten-5);
-    margin-bottom: var(--sui-spacing);
+    border-bottom: solid 1px var(--materialize-color-lighten-3);
     width: 100%;
+    padding: var(--sui-spacing);
 }
 
 form > *:last-child {
