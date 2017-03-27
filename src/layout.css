@@ -1,131 +1,3 @@
-.sui-top-left {
-    position: fixed;
-    top: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    z-index: 2;
-}
-
-.sui-center-left {
-    position: fixed;
-    top: var(--sui-spacing);
-    bottom: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
-    z-index: 2;
-}
-
-.sui-bottom-left {
-    position: fixed;
-    bottom: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    align-content: flex-end;
-    z-index: 2;
-}
-
-.sui-top-right {
-    position: fixed;
-    top: var(--sui-spacing);
-    right: var(--sui-spacing);
-    z-index: 2;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    align-content: flex-start;
-}
-
-.sui-center-right {
-    position: fixed;
-    top: var(--sui-spacing);
-    bottom: var(--sui-spacing);
-    right: var(--sui-spacing);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    z-index: 2;
-    text-align: right;
-}
-
-.sui-bottom-right {
-    position: fixed;
-    bottom: var(--sui-spacing);
-    right: var(--sui-spacing);
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
-    z-index: 2;
-    text-align: right;
-}
-
-.sui-top-center {
-    position: fixed;
-    top: var(--sui-spacing);
-    right: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    z-index: 1;
-}
-
-.sui-bottom-center {
-    position: fixed;
-    bottom: var(--sui-spacing);
-    right: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
-    z-index: 1;
-}
-
-.sui-center-center {
-    position: fixed;
-    top: var(--sui-spacing);
-    bottom: var(--sui-spacing);
-    right: var(--sui-spacing);
-    left: var(--sui-spacing);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    z-index: 1;
-}
-
-.sui-center-belt {
-    position: fixed;
-    top: 20vh;
-    bottom: 20vh;
-    right: 0;
-    left: 0;
-    overflow-x: scroll;
-    overflow-y: visible;
-    padding-left: var(--sui-spacing);
-    border-right: solid var(--sui-spacing) transparent;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
-}
-
 .sui-row {
     display: flex;
     flex-wrap: nowrap;
@@ -215,4 +87,132 @@
 .sui-list > *:hover {
     padding-top: calc(var(--sui-spacing) * 3);
     padding-bottom: calc(var(--sui-spacing) * 3);
+}
+
+.sui-top-left {
+    position: fixed;
+    top: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    z-index: 2;
+}
+
+.sui-center-left {
+    position: fixed;
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
+}
+
+.sui-bottom-left {
+    position: fixed;
+    bottom: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
+}
+
+.sui-top-right {
+    position: fixed;
+    top: var(--sui-spacing);
+    right: var(--sui-spacing);
+    z-index: 2;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sui-center-right {
+    position: fixed;
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
+    text-align: right;
+}
+
+.sui-bottom-right {
+    position: fixed;
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 2;
+    text-align: right;
+}
+
+.sui-top-center {
+    position: fixed;
+    top: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    z-index: 1;
+}
+
+.sui-bottom-center {
+    position: fixed;
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    z-index: 1;
+}
+
+.sui-center-center {
+    position: fixed;
+    top: var(--sui-spacing);
+    bottom: var(--sui-spacing);
+    right: var(--sui-spacing);
+    left: var(--sui-spacing);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+}
+
+.sui-center-belt {
+    position: fixed;
+    top: 20vh;
+    bottom: 20vh;
+    right: 0;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-left: var(--sui-spacing);
+    border-right: solid var(--sui-spacing) transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
 }
