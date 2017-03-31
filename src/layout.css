@@ -108,8 +108,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
     z-index: 2;
 }
 
@@ -119,8 +119,8 @@
     left: var(--sui-spacing);
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    align-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
     z-index: 2;
 }
 
@@ -132,8 +132,8 @@
     text-align: right;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 .sui-center-right {
