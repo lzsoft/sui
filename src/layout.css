@@ -8,7 +8,7 @@
     margin-bottom: var(--sui-spacing);
 }
 
-.sui-row:last-child {
+.sui-row:last-of-type {
     margin-bottom: 0;
 }
 
@@ -24,7 +24,7 @@
     overflow: visible;
 }
 
-.sui-col:last-child {
+.sui-col:last-of-type {
     margin-right: 0;
 }
 
