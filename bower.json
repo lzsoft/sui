@@ -3,6 +3,7 @@
     "license": "MIT",
     "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests", "readme.md", "bower.json"],
     "dependencies": {
+        "material-icons": "google/material-design-icons",
         "materialize-color": "tingting-io/materialize-color"
     }
 }

@@ -144,14 +144,9 @@ button {
     font-size: 1rem;
 }
 
-button > .fa {
+button > .material-icons {
     position: absolute;
     top: 50%;
     right: 0;
     margin-top: -0.5em;
-}
-
-.fa {
-    width: 1em;
-    box-sizing: content-box;
 }
