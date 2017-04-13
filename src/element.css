@@ -150,3 +150,8 @@ button > .fa {
     right: 0;
     margin-top: -0.5em;
 }
+
+.fa {
+    width: 1em;
+    box-sizing: content-box;
+}
