@@ -150,3 +150,8 @@ button > .material-icons {
     right: 0;
     margin-top: -0.5em;
 }
+
+.material-icons {
+    width: 1em;
+    box-sizing: content-box;
+}
