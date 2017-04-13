@@ -144,18 +144,9 @@ button {
     font-size: 1rem;
 }
 
-button > i.material-icons {
+button > .fa {
     position: absolute;
     top: 50%;
     right: 0;
-    margin-top: -12px;
-    font-size: 24px;
-}
-
-i.material-icons.mr {
-    margin-right: calc(var(--sui-spacing) / 2);
-}
-
-i.material-icons.ml {
-    margin-left: calc(var(--sui-spacing) / 2);
+    margin-top: -0.5em;
 }
