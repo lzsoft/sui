@@ -239,6 +239,21 @@
     padding-right: var(--sui-spacing);
 }
 
+.sui-center-belt {
+    position: fixed;
+    top: 20vh;
+    bottom: 20vh;
+    right: 0;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-left: var(--sui-spacing);
+    border-right: solid var(--sui-spacing) transparent;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 .sui-south {
     position: fixed;
     top: 70%;
