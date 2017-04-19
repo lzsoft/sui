@@ -4,6 +4,7 @@
 
 .sui-roll {
     animation: sui-roll 2s linear infinite;
+    transform-origin: center center;
 }
 
 @keyframes sui-roll {
