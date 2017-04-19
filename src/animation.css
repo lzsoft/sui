@@ -1,0 +1,28 @@
+.sui-blur > *:not(.sui-blur-exempt) {
+    animation: sui-blur 2s linear infinite;
+}
+
+.sui-roll {
+    animation: sui-roll 2s linear infinite;
+}
+
+@keyframes sui-roll {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes sui-blur {
+    0% {
+        filter: blur(20px);
+    }
+    50% {
+        filter: blur(30px);
+    }
+    100% {
+        filter: blur(20px);
+    }
+}
