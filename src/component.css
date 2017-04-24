@@ -17,4 +17,5 @@
 
 .sui-clickable:hover {
     background-color: var(--materialize-color-lighten-5);
+    color: var(--materialize-color);
 }
