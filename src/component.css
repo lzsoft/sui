@@ -19,3 +19,16 @@
     background-color: var(--materialize-color-lighten-5);
     color: var(--materialize-color);
 }
+
+body.sui-dark-bg .sui-clickable {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+body.sui-dark-bg .sui-clickable * {
+    color: white;
+}
+
+body.sui-dark-bg .sui-clickable:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}

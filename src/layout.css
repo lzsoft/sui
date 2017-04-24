@@ -223,8 +223,6 @@
 
 .sui-top-left > *:first-child,
 .sui-bottom-left > *:first-child,
-.sui-top-center > *:first-child,
-.sui-bottom-center > *:first-child,
 .sui-top-right > *:first-child,
 .sui-bottom-right > *:first-child {
     padding-left: var(--sui-spacing);
@@ -232,8 +230,6 @@
 
 .sui-top-left > *:last-child,
 .sui-bottom-left > *:last-child,
-.sui-top-center > *:last-child,
-.sui-bottom-center > *:last-child,
 .sui-top-right > *:last-child,
 .sui-bottom-right > *:last-child {
     padding-right: var(--sui-spacing);
