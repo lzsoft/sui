@@ -12,11 +12,6 @@ html {
     height: 100%;
     width: 100%;
     background-color: white;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    user-select: none;
     cursor: default;
     font-size: 18px;
     color: var(--materialize-color);
