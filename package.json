@@ -6,5 +6,5 @@
     "dependencies": {
         "materialize-color": "tingting-io/materialize-color"
     },
-    "flat": false
+    "flat": true
 }
