@@ -154,3 +154,9 @@ button > .material-icons {
     min-width: 1em;
     box-sizing: content-box;
 }
+
+.fa {
+    min-width: 1em;
+    box-sizing: content-box;
+    text-align: center;
+}
