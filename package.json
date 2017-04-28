@@ -1,8 +1,10 @@
 {
     "name": "sui",
+    "main": "sui.css",
     "license": "MIT",
-    "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests", "readme.md", "bower.json"],
+    "homepage": "https://github.com/tingting-io/sui",
     "dependencies": {
         "materialize-color": "tingting-io/materialize-color"
-    }
+    },
+    "flat": false
 }
