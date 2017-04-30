@@ -239,7 +239,7 @@
     padding-right: var(--sui-spacing);
 }
 
-.sui-center-belt {
+.sui-belt-grid {
     position: fixed;
     top: 20vh;
     bottom: 20vh;
@@ -252,16 +252,30 @@
     align-content: stretch;
 }
 
-.sui-center-belt > .sui-col:first-child,
-.sui-center-belt > .sui-u:first-child,
-.sui-center-belt > .sui-list:first-child {
+.sui-belt-grid > .sui-col:first-child,
+.sui-belt-grid > .sui-u:first-child,
+.sui-belt-grid > .sui-list:first-child {
     margin-left: var(--sui-spacing);
 }
 
-.sui-center-belt > .sui-col:last-child,
-.sui-center-belt > .sui-u:last-child,
-.sui-center-belt > .sui-list:last-child {
+.sui-belt-grid > .sui-col:last-child,
+.sui-belt-grid > .sui-u:last-child,
+.sui-belt-grid > .sui-list:last-child {
     margin-right: var(--sui-spacing);
+}
+
+.sui-belt-center {
+    position: fixed;
+    top: 20vh;
+    bottom: 20vh;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .sui-south {
