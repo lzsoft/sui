@@ -245,15 +245,23 @@
     bottom: 20vh;
     right: 0;
     left: 0;
-    overflow-x: scroll;
-    overflow-y: visible;
-    padding-left: var(--sui-spacing);
-    border-right: solid var(--sui-spacing) transparent;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+}
+
+.sui-center-belt > .sui-col:first-child,
+.sui-center-belt > .sui-u:first-child,
+.sui-center-belt > .sui-list:first-child {
+    margin-left: var(--sui-spacing);
+}
+
+.sui-center-belt > .sui-col:last-child,
+.sui-center-belt > .sui-u:last-child,
+.sui-center-belt > .sui-list:last-child {
+    margin-right: var(--sui-spacing);
 }
 
 .sui-south {
