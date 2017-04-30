@@ -11,7 +11,6 @@
 }
 
 .sui-clickable {
-    background-color: transparent;
     color: var(--materialize-color);
     cursor: pointer;
 }
@@ -20,31 +19,8 @@
     background-color: var(--materialize-color-lighten-5);
 }
 
-body.sui-dark-bg .sui-clickable {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-body.sui-dark-bg .sui-clickable * {
-    color: white;
-}
-
-body.sui-dark-bg .sui-clickable:hover {
-    background-color: white;
-    color: var(--materialize-color);
-}
-
-body.sui-dark-bg .sui-clickable:hover * {
-    color: var(--materialize-color);
-}
-
 .sui-clickable.sui-clickable-disabled {
     background-color: transparent;
     color: var(--materialize-color-lighten-4);
     cursor: default;
-}
-
-body.sui-dark-bg .sui-clickable.sui-clickable-disabled {
-    color: rgba(255, 255, 255, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
 }
