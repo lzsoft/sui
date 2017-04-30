@@ -70,23 +70,27 @@
     align-content: center;
     flex-wrap: nowrap;
     width: 100%;
-    padding: var(--sui-spacing);
     cursor: pointer;
-    border-bottom: solid 1px var(--materialize-color-lighten-3);
-    transition: padding 0.2s;
+    border-bottom: solid 1px var(--materialize-color-lighten-4);
+    transition: background-color var(--sui-transition-time), color var(--sui-transition-time);
 }
 
 .sui-list > * > * {
     flex-grow: 1;
+    padding: var(--sui-spacing);
 }
 
 .sui-list > * > i.material-icons {
     flex-grow: 0;
 }
 
+.sui-list > * > [data-loop-delete]:hover {
+    background-color: red;
+    color: white;
+}
+
 .sui-list > *:hover {
-    padding-top: calc(var(--sui-spacing) * 3);
-    padding-bottom: calc(var(--sui-spacing) * 3);
+    background-color: var(--materialize-color-lighten-4);
 }
 
 

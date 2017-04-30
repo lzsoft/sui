@@ -1,3 +1,6 @@
 :root {
     --sui-spacing: 15px;
+    --sui-transition-time: 0.2s;
+    --sui-transition-time-half: calc(var(--sui-transition-time) / 2);
+    --sui-transition-time-double: calc(var(--sui-transition-time) * 2);
 }
