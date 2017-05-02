@@ -15,6 +15,7 @@
     cursor: pointer;
 }
 
+.sui-clickable.sui-clickable.sui-clickable-enabled,
 .sui-clickable:hover {
     background-color: var(--materialize-color-lighten-5);
 }
