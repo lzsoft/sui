@@ -147,28 +147,14 @@ button {
     font-size: 1rem;
 }
 
-button > .material-icons {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    margin-top: -0.5em;
-}
-
 .material-icons {
     min-width: 1em;
     box-sizing: content-box;
 }
 
-.material-icons.ml {
-    margin-left: var(--sui-spacing);
-}
-
-.material-icons.mr {
-    margin-right: var(--sui-spacing);
-}
-
 .fa {
     min-width: 1em;
+    max-width: 1em;
     box-sizing: content-box;
     text-align: center;
 }

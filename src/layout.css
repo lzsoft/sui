@@ -120,9 +120,6 @@
     padding: var(--sui-spacing);
 }
 
-
-/* */
-
 .sui-belt-grid {
     position: fixed;
     top: 25vh;
@@ -161,56 +158,4 @@
     align-items: center;
     align-content: center;
     overflow: hidden;
-}
-
-.sui-south {
-    position: fixed;
-    top: 70%;
-    bottom: 20%;
-    left: var(--sui-spacing);
-    right: var(--sui-spacing);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.sui-north {
-    position: fixed;
-    bottom: 70%;
-    top: 20%;
-    left: var(--sui-spacing);
-    right: var(--sui-spacing);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.sui-west {
-    position: fixed;
-    right: 70%;
-    left: 20%;
-    top: var(--sui-spacing);
-    bottom: var(--sui-spacing);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.sui-east {
-    position: fixed;
-    left: 70%;
-    right: 20%;
-    top: var(--sui-spacing);
-    bottom: var(--sui-spacing);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
