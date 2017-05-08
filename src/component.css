@@ -139,6 +139,14 @@
     line-height: 1em;
 }
 
+.sui-title-top-left.sui-clickable-enabled:after,
+.sui-title-top-center.sui-clickable-enabled:after,
+.sui-title-top-right.sui-clickable-enabled:after,
+.sui-title-center-left.sui-clickable-enabled:after,
+.sui-title-center-right.sui-clickable-enabled:after,
+.sui-title-bottom-left.sui-clickable-enabled:after,
+.sui-title-bottom-center.sui-clickable-enabled:after,
+.sui-title-bottom-right.sui-clickable-enabled:after,
 .sui-title-top-left:hover:after,
 .sui-title-top-center:hover:after,
 .sui-title-top-right:hover:after,
