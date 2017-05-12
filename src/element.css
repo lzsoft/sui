@@ -122,7 +122,6 @@ form > * {
     flex-wrap: nowrap;
     border-bottom: solid 1px var(--materialize-color-lighten-4);
     width: 100%;
-    padding: var(--sui-spacing);
     transition: background-color var(--sui-transition-time);
 }
 
@@ -132,6 +131,10 @@ form > *:hover {
 
 form > *:last-child {
     border-bottom: none;
+}
+
+form > * > * {
+    padding: var(--sui-spacing);
 }
 
 button {
