@@ -89,10 +89,6 @@
     background-color: var(--materialize-color-lighten-4);
 }
 
-.sui-list > *:last-child {
-    border-bottom: none;
-}
-
 .sui-clickable {
     color: var(--materialize-color);
     cursor: pointer;
