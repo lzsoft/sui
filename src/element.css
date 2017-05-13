@@ -129,10 +129,6 @@ form > *:hover {
     background-color: var(--materialize-color-lighten-4);
 }
 
-form > *:first-child {
-    border-top: solid 1px var(--materialize-color-lighten-4);
-}
-
 form > * > * {
     padding: var(--sui-spacing);
 }
