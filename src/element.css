@@ -123,6 +123,7 @@ form > * {
     border-bottom: solid 1px var(--materialize-color-lighten-4);
     width: 100%;
     transition: background-color var(--sui-transition-time);
+    overflow-y: scroll;
 }
 
 form > *:hover {
