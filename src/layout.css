@@ -184,3 +184,27 @@
     align-items: center;
     align-content: center;
 }
+
+@media (max-width: 600px) {
+    .sui-top-left,
+    .sui-top-center,
+    .sui-top-right,
+    .sui-center-left,
+    .sui-center-center,
+    .sui-center-right,
+    .sui-bottom-left,
+    .sui-bottom-center,
+    .sui-bottom-right {
+        position: relative;
+        order: 1;
+        justify-content: center;
+    }
+    .sui-belt-center {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

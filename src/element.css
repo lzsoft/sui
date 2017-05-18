@@ -158,3 +158,9 @@ button {
     box-sizing: content-box;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    body {
+        overflow-y: scroll;
+    }
+}
