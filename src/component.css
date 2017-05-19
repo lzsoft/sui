@@ -225,3 +225,12 @@
     right: 0;
     margin-top: 1em;
 }
+
+@media (max-width: 600px) {
+    .sui-clickable:hover {
+        background-color: transparent;
+    }
+    .sui-clickable:active {
+        background-color: var(--materialize-color-lighten-5);
+    }
+}
