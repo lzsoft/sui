@@ -34,7 +34,6 @@ a {
 
 ::placeholder {
     color: inherit;
-    opacity: 0.5;
     font-size: 100%;
 }
 

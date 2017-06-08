@@ -173,8 +173,8 @@
 
 .sui-belt-center {
     position: fixed;
-    top: 25vh;
-    bottom: 25vh;
+    top: calc(var(--sui-spacing) * 4);
+    bottom: calc(var(--sui-spacing) * 4);
     right: 0;
     left: 0;
     display: flex;
@@ -183,6 +183,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    overflow: hidden;
 }
 
 @media (max-width: 600px) {
