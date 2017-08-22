@@ -1,12 +1,10 @@
-.sui-blur > *:not(.sui-blur-exempt) {
+.sui-blur>*:not(.sui-blur-exempt) {
     filter: blur(30px);
 }
-
 .sui-roll {
     animation: sui-roll 2s linear infinite;
     transform-origin: center center;
 }
-
 @keyframes sui-roll {
     from {
         transform: rotateZ(0);
