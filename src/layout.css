@@ -131,7 +131,8 @@
 .sui-center-right>*,
 .sui-bottom-right>*,
 .sui-bottom-left-half>*,
-.sui-bottom-right-half>* {
+.sui-bottom-right-half>*,
+.sui-center-center>* {
     padding: var(--sui-spacing);
 }
 .sui-belt-grid {
