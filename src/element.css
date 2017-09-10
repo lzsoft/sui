@@ -122,6 +122,7 @@ button {
     align-items: center;
     position: relative;
     font-size: 1rem;
+    font-family: inherit;
 }
 .material-icons {
     min-width: 1em;
