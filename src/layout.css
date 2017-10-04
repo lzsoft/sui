@@ -164,7 +164,9 @@
     .sui-bottom-right {
         position: relative;
         order: 1;
-        justify-content: center;
+        left: 0;
+        right: 0;
+        width: 100%;
     }
     .sui-belt-center {
         display: block;
@@ -173,5 +175,6 @@
         left: 0;
         right: 0;
         bottom: 0;
+        width: 100%;
     }
 }
