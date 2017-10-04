@@ -166,7 +166,8 @@
         order: 1;
         left: 0;
         right: 0;
-        width: 100%;
+        width: 100vw;
+        overflow-x: hidden;
     }
     .sui-belt-center {
         display: block;
@@ -175,6 +176,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
+        overflow-x: hidden;
     }
 }
