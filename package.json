@@ -3,9 +3,9 @@
     "main": "sui.css",
     "version": "1.0.0",
     "license": "MIT",
-    "homepage": "https://github.com/tingting-io/sui",
+    "homepage": "https://github.com/tclzcja/sui",
     "dependencies": {
-        "materialize-color": "tingting-io/materialize-color"
+        "materialize-color": "tclzcja/materialize-color"
     },
     "flat": true
 }
