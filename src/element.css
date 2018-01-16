@@ -52,16 +52,16 @@ h6 {
     align-items: center;
 }
 .mr {
-    margin-right: var(--spacing);
+    margin-right: var(--sui-spacing);
 }
 .ml {
-    margin-left: var(--spacing);
+    margin-left: var(--sui-spacing);
 }
 .mt {
-    margin-top: var(--spacing);
+    margin-top: var(--sui-spacing);
 }
 .mb {
-    margin-bottom: var(--spacing);
+    margin-bottom: var(--sui-spacing);
 }
 a {
     text-decoration: none;
@@ -106,14 +106,14 @@ form label {
     flex-wrap: nowrap;
     width: 100%;
     cursor: pointer;
-    padding-right: var(--spacing);
+    padding-right: var(--sui-spacing);
 }
 form label > div,
 form label > input,
 form label > select,
 form label > textarea {
-    padding: var(--spacing) 0;
-    min-height: calc(var(--spacing-double) + 24px);
+    padding: var(--sui-spacing) 0;
+    min-height: calc(var(--sui-spacing-double) + 24px);
 }
 form label > div {
     display: flex;
@@ -121,7 +121,7 @@ form label > div {
     align-items: center;
 }
 form label > i {
-    padding: var(--spacing);
+    padding: var(--sui-spacing);
 }
 .fa {
     min-width: 1em;
