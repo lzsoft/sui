@@ -1,4 +1,4 @@
-.sui-blur>*:not(.sui-blur-exempt) {
+.sui-blur > *:not(.sui-blur-exempt) {
     filter: blur(30px);
 }
 .sui-roll {

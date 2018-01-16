@@ -5,7 +5,6 @@
     outline: none;
     box-sizing: border-box;
     line-height: 100%;
-    border-radius: 0;
 }
 body,
 html {
@@ -13,63 +12,10 @@ html {
     width: 100%;
     background-color: white;
     cursor: default;
-    font-size: 18px;
+    font-family: "Arial";
     color: var(--materialize-color);
-    overflow: hidden;
-}
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    color: inherit;
-    text-decoration: none;
-    white-space: nowrap;
-}
-::placeholder {
-    color: inherit;
-    font-size: 100%;
-}
-::-webkit-scrollbar {
-    height: 0;
-    width: 0;
-    display: none;
-}
-input,
-select,
-textarea {
-    width: 100%;
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    cursor: pointer;
-    line-height: 100%;
-    text-align: inherit;
-    color: var(--materialize-color);
-    background-color: transparent;
-    overflow: visible;
-}
-select {
-    appearance: none;
-    -webkit-appearance: none;
-}
-select>option {
     background-color: white;
-    color: black;
-}
-textarea {
-    min-height: 300px;
-    resize: none;
-}
-input[type='search']::-webkit-search-cancel-button,
-input[type='search']::-webkit-search-decoration,
-input[type='search']::-webkit-search-results-button,
-input[type='search']::-webkit-search-results-decoration {
-    display: none;
-}
-input[type='checkbox'] {
-    height: 30px;
-    width: 30px;
+    overflow: hidden;
 }
 template {
     display: none !important;
@@ -77,57 +23,105 @@ template {
 table {
     height: 100%;
     width: 100%;
-    border-collapse: collapse;
     table-layout: fixed;
 }
-form {
-    height: 100%;
-    width: 100%;
-    padding: var(--sui-spacing);
-}
-form.sui-u {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
-}
-form>* {
-    cursor: pointer;
+td {
     position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    border-bottom: solid 1px var(--materialize-color-lighten-4);
-    width: 100%;
-    transition: background-color var(--sui-transition-time);
-    overflow-y: scroll;
 }
-form>*:hover {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+::placeholder {
+    opacity: 0.5;
+}
+::-webkit-scrollbar {
+    width: 5px;
     background-color: var(--materialize-color-lighten-4);
-}
-form>*>* {
-    padding: var(--sui-spacing);
-}
-button {
-    height: 100px;
-    width: 100%;
-    border-bottom: none;
-    background-color: var(--materialize-color);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    font-size: 1rem;
-    font-family: inherit;
+    /* or add it to the track */
 }
 .material-icons {
     min-width: 1em;
     box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mr {
+    margin-right: var(--spacing);
+}
+.ml {
+    margin-left: var(--spacing);
+}
+.mt {
+    margin-top: var(--spacing);
+}
+.mb {
+    margin-bottom: var(--spacing);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input,
+select,
+textarea {
+    background-color: transparent;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+textarea {
+    resize: none;
+    height: 10rem;
+    line-height: 1.5em;
+}
+input::placehoder {
+    color: inherit;
+}
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    color: var(--materialize-color);
+}
+form label {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    cursor: pointer;
+    padding-right: var(--spacing);
+}
+form label > div,
+form label > input,
+form label > select,
+form label > textarea {
+    padding: var(--spacing) 0;
+    min-height: calc(var(--spacing-double) + 24px);
+}
+form label > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+form label > i {
+    padding: var(--spacing);
 }
 .fa {
     min-width: 1em;
