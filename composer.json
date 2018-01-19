@@ -11,6 +11,6 @@
         "url": "https://github.com/tclzcja/materialize-color"
     }],
     "require": {
-        "tclzcja/materialize-color": "*"
+        "tclzcja/materialize-color": "@dev"
     }
 }
