@@ -11,6 +11,7 @@
         "url": "https://github.com/tclzcja/materialize-color"
     }],
     "require": {
-        "tclzcja/materialize-color": "@dev"
-    }
+        "tclzcja/materialize-color": "dev-master"
+    },
+    "minimum-stability": "dev"
 }
