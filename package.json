@@ -12,6 +12,6 @@
     },
     "flat": true,
     "scripts": {
-        "postinstall": "gulp build"
+        "install": "gulp build"
     }
 }
