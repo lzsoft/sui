@@ -1,11 +1,17 @@
 {
     "name": "sui",
-    "main": "sui.css",
+    "main": "min/sui.css",
     "version": "1.0.0",
     "license": "MIT",
     "homepage": "https://github.com/tclzcja/sui",
     "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.9.2",
+        "gulp-concat": "^2.6.1",
         "materialize-color": "tclzcja/materialize-color"
     },
-    "flat": true
+    "flat": true,
+    "scripts": {
+        "postinstall": "gulp build"
+    }
 }
