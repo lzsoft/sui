@@ -123,6 +123,12 @@ form label > div {
 form label > i {
     padding: var(--sui-spacing);
 }
+form input[type="button"],
+form button {
+    width: auto;
+    padding: var(--sui-spacing);
+    background-color: var(--materialize-color-lighten-5);
+}
 .fa {
     min-width: 1em;
     max-width: 1em;
