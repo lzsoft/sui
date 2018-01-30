@@ -7,8 +7,7 @@
     "dependencies": {
         "gulp": "^3.9.1",
         "gulp-clean-css": "^3.9.2",
-        "gulp-concat": "^2.6.1",
-        "materialize-color": "tclzcja/materialize-color"
+        "gulp-concat": "^2.6.1"
     },
     "flat": true,
     "scripts": {
