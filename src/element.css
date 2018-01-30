@@ -94,9 +94,9 @@ input::placehoder {
 form {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
     color: var(--materialize-color);
 }
 form label {
