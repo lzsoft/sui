@@ -12,7 +12,7 @@ html {
     width: 100%;
     background-color: white;
     cursor: default;
-    font-family: "Arial";
+    font-family: system-ui;
     color: var(--materialize-color);
     background-color: white;
     overflow: hidden;
