@@ -10,7 +10,6 @@
         "gulp-concat": "^2.6.1",
         "del": "*"
     },
-    "flat": true,
     "scripts": {
         "install": "gulp build",
         "postinstall": "gulp clean"
