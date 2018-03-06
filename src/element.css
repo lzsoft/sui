@@ -128,7 +128,8 @@ form button {
     padding: var(--sui-spacing);
     background-color: var(--materialize-color-lighten-5);
 }
-.fa {
+.fab,
+.far {
     min-width: 1em;
     max-width: 1em;
     box-sizing: content-box;
