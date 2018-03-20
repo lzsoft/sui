@@ -29,8 +29,8 @@
     right: 50%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
     z-index: 1000;
 }
 .sui-top-right {
@@ -42,8 +42,8 @@
     text-align: right;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 .sui-center-right {
     position: fixed;
