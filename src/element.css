@@ -129,7 +129,8 @@ form button {
     background-color: var(--materialize-color-lighten-5);
 }
 .fab,
-.far {
+.far,
+.fas {
     min-width: 1em;
     max-width: 1em;
     box-sizing: content-box;
@@ -138,7 +139,8 @@ form button {
     align-items: center;
 }
 .fab:before,
-.far:before {
+.far:before,
+.fas:before {
     font-size: 24px;
 }
 @media (max-width: 600px) {
