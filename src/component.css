@@ -65,6 +65,9 @@
     flex-grow: 1;
     padding: var(--sui-spacing);
 }
+.sui-list > * > i.fab,
+.sui-list > * > i.far,
+.sui-list > * > i.fas,
 .sui-list > * > i.material-icons {
     flex-grow: 0;
 }
