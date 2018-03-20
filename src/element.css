@@ -10,7 +10,6 @@ body,
 html {
     height: 100%;
     width: 100%;
-    background-color: white;
     cursor: default;
     font-family: system-ui;
     color: var(--materialize-color);
@@ -41,9 +40,10 @@ h6 {
 }
 ::-webkit-scrollbar {
     display: none;
-    /* or add it to the track */
 }
 .material-icons {
+    font-size: var(--sui-icon-size);
+    max-width: 1em;
     min-width: 1em;
     box-sizing: content-box;
     display: flex;
@@ -84,7 +84,7 @@ textarea {
 }
 textarea {
     resize: none;
-    height: 10rem;
+    height: 10em;
     line-height: 1.5em;
 }
 input::placehoder {
@@ -112,7 +112,7 @@ form label > input,
 form label > select,
 form label > textarea {
     padding: var(--sui-spacing) 0;
-    min-height: calc(var(--sui-spacing-double) + 24px);
+    min-height: calc(var(--sui-spacing-double) + var(--sui-icon-size));
 }
 form label > div {
     display: flex;
@@ -138,7 +138,7 @@ form button {
 .fab:before,
 .far:before,
 .fas:before {
-    font-size: 24px;
+    font-size: var(--sui-icon-size);
     min-width: 1em;
     max-width: 1em;
     box-sizing: content-box;
