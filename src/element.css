@@ -142,6 +142,9 @@ form button {
     min-width: 1em;
     max-width: 1em;
     box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 600px) {
     body {
