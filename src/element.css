@@ -111,8 +111,7 @@ form label > div,
 form label > input,
 form label > select,
 form label > textarea {
-    padding: var(--sui-spacing) 0;
-    min-height: calc(var(--sui-spacing-double) + var(--sui-icon-size));
+    padding: var(--sui-spacing);
 }
 form label > div {
     display: flex;
@@ -120,7 +119,7 @@ form label > div {
     align-items: center;
 }
 form label > i {
-    padding: var(--sui-spacing);
+    margin-left: var(--sui-spacing);
 }
 form input[type="button"],
 form button {
