@@ -126,8 +126,10 @@ form input[type="button"],
 form button {
     width: auto;
     padding: var(--sui-spacing);
-    background-color: var(--materialize-color-lighten-5);
+    background-color: var(--materialize-color-lighten-6);
     cursor: pointer;
+    color: inherit;
+    margin-left: auto;
 }
 .fab,
 .far,
