@@ -85,7 +85,8 @@
 }
 .sui-clickable.sui-clickable-enabled,
 .sui-clickable:hover {
-    background-color: var(--materialize-color-lighten-5);
+    background-color: var(--materialize-color);
+    color: white;
 }
 .sui-clickable.sui-clickable-disabled {
     background-color: transparent;
