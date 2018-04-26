@@ -76,7 +76,7 @@ textarea {
     background-color: transparent;
     color: inherit;
     height: auto;
-    line-height: auto;
+    line-height: normal;
     width: 100%;
     font-size: 1rem;
     font-family: inherit;
