@@ -100,13 +100,12 @@ form {
     color: var(--materialize-color);
 }
 form label {
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     width: 100%;
     cursor: pointer;
-    padding-right: var(--sui-spacing);
 }
 form label > div,
 form label > input,
