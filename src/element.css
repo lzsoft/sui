@@ -102,7 +102,7 @@ form {
 form label {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: nowrap;
     width: 100%;
     cursor: pointer;
@@ -111,7 +111,7 @@ form label > div,
 form label > input,
 form label > select,
 form label > textarea {
-    padding: var(--sui-spacing);
+    display: block;
 }
 form label > div {
     display: flex;
@@ -119,13 +119,14 @@ form label > div {
     align-items: center;
 }
 form label > i {
-    margin-left: var(--sui-spacing);
+    padding: var(--sui-spacing);
 }
 form input[type="button"],
 form button {
     width: auto;
     padding: var(--sui-spacing);
     background-color: var(--materialize-color-lighten-5);
+    cursor: pointer;
 }
 .fab,
 .far,
