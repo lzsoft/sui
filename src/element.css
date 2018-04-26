@@ -75,7 +75,7 @@ textarea {
     box-sizing: content-box;
     background-color: transparent;
     color: inherit;
-    height: 1em;
+    height: auto;
     width: 100%;
     font-size: 1rem;
     font-family: inherit;
@@ -112,6 +112,7 @@ form label > input,
 form label > select,
 form label > textarea {
     display: block;
+    height: auto;
 }
 form label > div {
     display: flex;
