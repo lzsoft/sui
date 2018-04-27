@@ -120,6 +120,7 @@ form label > div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-grow: 1;
 }
 form label > i {
     padding: var(--sui-spacing);
