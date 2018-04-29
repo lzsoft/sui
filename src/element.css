@@ -101,38 +101,37 @@ form {
     flex-direction: column;
     color: var(--materialize-color);
 }
-form label {
+label {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: nowrap;
     width: 100%;
-    cursor: pointer;
 }
-form label > div,
-form label > input,
-form label > select,
-form label > textarea {
+label > div,
+label > input,
+label > select,
+label > textarea {
     display: block;
     height: auto;
+    flex-shrink: 0;
 }
-form label > div {
+label > div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-grow: 1;
 }
-form label > i {
+label > i {
     padding: var(--sui-spacing);
 }
-form input[type="button"],
-form button {
+input[type="button"],
+button {
     width: auto;
     padding: var(--sui-spacing);
     background-color: var(--materialize-color-lighten-6);
     cursor: pointer;
     color: inherit;
-    margin-left: auto;
 }
 .fab,
 .far,
