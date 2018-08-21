@@ -3,5 +3,8 @@
 	"main": "sui.css",
 	"version": "1.0.0",
 	"license": "MIT",
-	"homepage": "https://github.com/tclzcja/sui"
+	"homepage": "https://github.com/tclzcja/sui",
+	"dependencies": {
+		"materialize-color": "github:tclzcja/materialize-color"
+	}
 }
