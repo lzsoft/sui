@@ -1,0 +1,10 @@
+:root {
+	--sui-spacing: 15px;
+	--sui-spacing-negative: calc(0px - var(--sui-spacing));
+	--sui-spacing-double: calc(var(--sui-spacing) * 2);
+	--sui-icon-size: 24px;
+	font-size: 16px;
+	--sui-transition-time: 0.2s;
+	--sui-transition-time-half: calc(var(--sui-transition-time) / 2);
+	--sui-transition-time-double: calc(var(--sui-transition-time) * 2);
+}
